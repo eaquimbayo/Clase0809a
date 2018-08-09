@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selectores</title>
+    <style>
+        div + p {
+            color: peru;
+        }
+
+        div, h1 {
+            color: blue;
+        }
+
+        p h2 {
+            color: red;
+        }
+        h1[data-valor]{
+            color: chartreuse;
+        }
+        h1:hover{
+            transform: scale(1,3);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 data-valor= "uno">Encabezado 1</h1>
+    <h2 data-valor= "dos">Encabezado 1</h2>
+    <p>Texto 1</p>
+    <h1 class="Paragrafo">Texto 2</h1>
+    <div>
+        <p>Texto 3</p>
+        <div>
+            <p>Otro parrafo</p>
+        </div>
+    </div>
+    <div>
+            <p>Texto 4</p>
+            <div>
+                <p>Otro parrafo 5</p>
+            </div>
+        </div>
+</body>
+
+</html>
